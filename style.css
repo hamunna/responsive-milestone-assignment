@@ -1,0 +1,104 @@
+
+/* Imported Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ====================
+    Common Styles Start
+======= ============= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex-display {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.primary-btn {
+    padding: 7px 15px;
+    background-color: #E02C6D;
+    color: #fff;
+    border: 1px solid #E02C6D;
+}
+/* Common Styles END */
+
+
+/* ========================
+    Styling Header Section  Start
+=========================*/
+
+header {
+    height: 670px;
+    width: 100%;
+    background-color: #2d25a0;
+}
+
+/* Styling NavBar */
+
+nav {
+    height: 44px;
+    width: 100%;
+    padding-top: 58px;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 36px;
+}
+
+nav ul li a:link, nav ul li a:visited {
+    color: #fff;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styling Home */
+
+#home-section {
+    margin-top: 100px;
+}
+
+#home-contents h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#home-image img {
+    width: 100%;
+    margin-right: -7px;
+}
+
+#home-contents .primary-btn:hover i {
+    transform: translate(10px, 0);
+    padding-right: 3px;
+    transition: .4s ease;
+}
