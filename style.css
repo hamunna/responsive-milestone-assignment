@@ -36,10 +36,23 @@ a {
 }
 
 .primary-btn {
-    padding: 7px 15px;
+    padding: 10px 24px;
     background-color: #E02C6D;
     color: #fff;
     border: 1px solid #E02C6D;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.primary-btn i {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.common-para-style {
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
 }
 /* Common Styles END */
 
@@ -88,7 +101,7 @@ nav .container {
 
 #home-contents h1 {
     font-size: 60px;
-    font-weight: 700;
+    line-height: 80px;
     color: #fff;
 }
 
@@ -101,4 +114,63 @@ nav .container {
     transform: translate(10px, 0);
     padding-right: 3px;
     transition: .4s ease;
+}
+
+/* ------------------------------------------
+Styling Header Section  END
+--------------------------------------------*/
+
+
+/* ========================
+    Styling Player Section  Start
+=========================*/
+
+#players {
+    margin-top: 75px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 27px;
+    justify-content: center;
+}
+
+.grid-container .grid-item {
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    box-shadow: 0 0 40px 0px #00000026;
+    
+}
+.grid-container .grid-item img {
+    width: 100%;
+}
+.grid-container .grid-item h3 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+/* ------------------------------------------
+    Styling Player Section  END
+--------------------------------------------*/
+
+
+/* ========================
+    Highlights Section  Start
+=========================*/
+
+#highlights {
+    margin-top: 165px;
+}
+
+.highlights-contents h2 {
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.highlights-contents p {
+    font-size: 16px;
+    line-height: 28px;
 }
