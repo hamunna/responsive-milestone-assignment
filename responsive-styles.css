@@ -10,6 +10,46 @@ Media Queries
 		Mobile Devices Start
 ---------------------------------*/
 
+@media only screen and (max-width: 992px){
+
+
+	.grid-container {
+		display: grid;
+		grid-template-columns:repeat(2, 1fr);
+		grid-gap: 27px;
+		justify-content: center;
+	}
+
+	#gallery-images {
+		display: grid;
+		grid-template-columns:repeat(2, 1fr);
+		grid-gap: 10px 16px;
+		justify-content: center;
+	}
+
+	#sponsors-grid {
+		display: grid;
+		grid-template-columns:repeat(2, 1fr);
+		grid-gap: 10px 16px;
+		justify-content: center;
+		align-items: center;
+	}
+
+	nav {
+		display: none;
+	}
+
+
+
+}
+
+
+
+
+/* -------------------------------
+		Mobile Devices Start
+---------------------------------*/
+
 @media only screen and (max-width: 688px){
 	
 	/* Header Section Responsive */
