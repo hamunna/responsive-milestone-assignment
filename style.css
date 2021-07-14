@@ -42,6 +42,8 @@ a {
     border: 1px solid #E02C6D;
     font-size: 16px;
     line-height: 24px;
+    margin-top: 27px;
+    cursor: pointer;
 }
 
 .primary-btn i {
@@ -170,7 +172,82 @@ Styling Header Section  END
     line-height: 60px;
 }
 
+.highlights-contents {
+    width: 45%;
+}
+
 .highlights-contents p {
     font-size: 16px;
     line-height: 28px;
+    width: 90%;
 }
+
+.highlights-img {
+    width: 50%;
+}
+
+.highlights-img img {
+    width: 100%;
+}
+
+.highlights-contents .primary-btn:hover i {
+    transform: translate(10px, 0);
+    padding-right: 3px;
+    transition: .4s ease;
+}
+
+/* ------------------------------------------
+    Highlights Section  END
+--------------------------------------------*/
+
+
+/* ========================
+    Footer Section  Start
+=========================*/
+
+footer {
+    margin-top: 158px;
+    margin-bottom: 63px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column > div:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.icon-rounded-bg {
+    height: 32px;
+    width: 32px;
+    background: rgb(11, 13, 23, 0.1);
+    margin: auto 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+.icon-rounded-bg i {
+    color: #969BAB;
+    font-size: 17px;
+}
+
+.copyrights {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+
+
+
+
+
+
+
