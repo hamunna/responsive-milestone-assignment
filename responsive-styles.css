@@ -209,7 +209,7 @@ footer {
 }
 
 .footer-logo {
-    width: 90%;
+    width: 100%;
 }
 
 .footer-logo img {
@@ -224,7 +224,7 @@ footer {
     height: 32px;
     width: 32px;
     background: rgb(11, 13, 23, 0.1);
-    margin: auto 14px;
+    margin: auto 8px;
     display: flex;
     justify-content: center;
     align-items: center;
