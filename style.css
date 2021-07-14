@@ -42,7 +42,6 @@ a {
     border: 1px solid #E02C6D;
     font-size: 16px;
     line-height: 24px;
-    margin-top: 27px;
     cursor: pointer;
 }
 
@@ -95,6 +94,10 @@ nav .container {
     justify-content: space-between;
 }
 
+.menu-items {
+    display: flex;
+    align-items: center;
+}
 /* Styling Home */
 
 #home-section {
@@ -110,6 +113,10 @@ nav .container {
 #home-image img {
     width: 100%;
     margin-right: -7px;
+}
+
+#home-contents .primary-btn {
+    margin-top: 24px;
 }
 
 #home-contents .primary-btn:hover i {
@@ -188,6 +195,10 @@ Styling Header Section  END
 
 .highlights-img img {
     width: 100%;
+}
+
+.highlights-contents .primary-btn {
+    margin-top: 27px;
 }
 
 .highlights-contents .primary-btn:hover i {
