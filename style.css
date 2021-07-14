@@ -78,6 +78,10 @@ nav {
     padding-top: 58px;
 }
 
+#menu-toggler-btn {
+    display: none;
+}
+
 nav ul {
     display: inline-block;
 }

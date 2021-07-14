@@ -1,17 +1,31 @@
 
 
 /*============================
-Media Queries
+		Media Queries
 =============================*/
 
 
 
-/* -------------------------------
+/* ---------------------------------
 		Mobile Devices Start
----------------------------------*/
+-----------------------------------*/
 
 @media only screen and (max-width: 992px){
 
+
+	#menu-toggler-btn {
+		display: inline-block;
+		background: transparent;
+		font-size: 36px;
+		color: #fff;
+		padding: 0;
+		border: none;
+		cursor: pointer;
+	}
+	
+	nav ul {
+		display: none;
+	}
 
 	.grid-container {
 		display: grid;
@@ -35,15 +49,13 @@ Media Queries
 		align-items: center;
 	}
 
-	nav {
-		display: none;
-	}
-
 
 
 }
 
-
+/* ---------------------------------
+		Tablet Devices END
+------------------------------------*/
 
 
 /* -------------------------------
@@ -59,7 +71,11 @@ Media Queries
 		height: 100%;
 	}
 	
-	nav {
+	#menu-toggler-btn {
+		display: inline-block;
+	}
+	
+	nav ul {
 		display: none;
 	}
 	
